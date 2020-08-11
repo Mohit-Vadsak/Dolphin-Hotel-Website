@@ -1,60 +1,56 @@
-body{
+body {
   margin: 0px;
-  
   background-color: white;
-  
 }
 .nav ul {
   list-style-type: none;
   margin: 0;
- /* padding-right:60px;*/
- padding-left: 40px;
- font-size: 20px;
+  /* padding-right:60px;*/
+  padding-left: 40px;
+  font-size: 20px;
   overflow: hidden;
   background-color: white;
-
 }
-  
+
 .nav li {
   float: left;
-
 }
-.nav h3{
+.nav h3 {
   font-size: 20px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: bold;
 }
 .nav li a {
-  display: block;  
-  text-align: center; 
+  display: block;
+  text-align: center;
   padding: 5px 30px;
-  padding-left: 60px; 
+  padding-left: 60px;
 
   color: #512da8;
   text-decoration: none;
   font-weight: lighter;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 .nav li a:hover:not(.active) {
   color: #304ffe;
-  /*opacity: 0.5;*/ 
+  /*opacity: 0.5;*/
 }
 
-.info{
+.info {
   margin-left: 8%;
   margin-right: 8%;
 }
-.info h2{
+.info h2 {
   margin-top: 10px;
   text-align: center;
   font-weight: 600;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 45px;
-  color: #7B1FA2;
+  color: #7b1fa2;
 }
-.info p{
-  font-family: 'Montserrat', sans-serif;
+.info p {
+  font-family: "Montserrat", sans-serif;
   font-size: 17px;
   margin-top: 5px;
   text-align: justify;
@@ -63,18 +59,17 @@ body{
   font-weight: 600;
 }
 
-.left{
+.left {
   width: 50%;
 }
-.left img{
+.left img {
   padding-right: 25px;
   padding-left: 25px;
   float: left;
   height: 280px;
   width: 478px;
-
 }
-.right{
+.right {
   width: 50%;
   /*float: center;*/
   margin-left: auto;
@@ -84,27 +79,27 @@ body{
   display: none;
 }
 
-.right p{
-  font-family: 'Montserrat', sans-serif;
+.right p {
+  font-family: "Montserrat", sans-serif;
 }
 
-.flex-container{
+.flex-container {
   display: flex;
   /*flex-direction: column;*/
   /*flex-wrap: wrap;*/
   flex-flow: row wrap;
-   justify-content: space-around;
+  justify-content: space-around;
 }
 
-.flex-container h3{
+.flex-container h3 {
   cursor: pointer;
 }
 
-.foot{
+.foot {
   background-color: #212121;
   padding: 10px;
-  color: #FFFFFF;
-  font-family: 'Nunito Sans', sans-serif;
+  color: #ffffff;
+  font-family: "Nunito Sans", sans-serif;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 1px;
