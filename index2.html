@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>2.0</title>
+   <link rel="stylesheet" type="text/css" href="style2.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta charset="UTF-8">
+   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+   <script src="https://code.jquery.com/jquery-3.4.0.min.js"   integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="   crossorigin="anonymous"></script>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta charset="UTF-8">
+
+   <style type="text/css">
+		* {box-sizing: border-box;}
+		body {	
+		}
+		.mySlides {
+			display: none;
+		}
+		img {
+			vertical-align: middle;
+		}
+
+		.slideshow-container {
+		  max-width: 1000px;
+		  position: relative;
+		  margin: auto;
+		}
+		/* Fading animation */
+		.fade {
+		  -webkit-animation-name: fade;
+		  -webkit-animation-duration: 1.5s;
+		  animation-name: fade;
+		  animation-duration: 1.5s;
+		}
+
+		@-webkit-keyframes fade {
+		  from {opacity: .4} 
+		  to {opacity: 1}
+		}
+
+		@keyframes fade {
+		  from {opacity: .4} 
+		  to {opacity: 1}
+		}
+
+		/* On smaller screens, decrease text size */
+		@media only screen and (max-width: 300px) {
+		  .text {font-size: 11px}
+		}
+
+   </style>
+
+<script >
+      $(document).ready(function() {
+        $("#toggle").click(function() {
+          var elem = $("#toggle").text();
+          if (elem == "Read More") {
+            $("#toggle").text("Read Less");
+            $("#text").slideDown();
+          } else {
+            $("#toggle").text("Read More");
+            $("#text").slideUp();
+          }
+        });
+      });
+   </script>  
+</head>
+
+<body>
+   <div class="nav">
+         <ul>
+            <li><img src="images/dolphin.png" height="70" width="150" alt="Logo">
+            <li style="margin-top: 2px">
+               <a href="index2.html">
+                  <h3>Home</h3>
+               </a>
+            </li>
+            <li style="margin-top: 2px">
+               <a href="#">
+                  <h3>Booking</h3>
+               </a>
+            </li>
+            <li style="margin-top: 2px">
+               <a href="fac.html">
+                  <h3>Facilities</h3>
+               </a>
+            </li>
+            <li style="margin-top: 2px">
+               <a href="#">
+                  <h3>Gallery</h3>
+               </a>
+            </li>
+            <li style="margin-top: 2px">
+               <a href="contact.html">
+                  <h3>Contact Us</h3>
+               </a>
+            </li>
+        </li>
+       </ul>
+   </div>
+	<div class="slideshow-container">
+		<div class="mySlides  w3-animate-right">
+		  <img class=" w3-center"src="images/image1.jpg" width="1000" height="400">
+		</div>
+		<div class="mySlides  w3-animate-right">
+		  <img class=" w3-center"src="images/img2.jpg" width="1000" height="400">
+		</div>
+		<div class="mySlides w3-animate-right">
+		  <img class=" w3-center"src="images/img.jpg" width="1000" height="400">
+		</div>
+	</div>
+   <div class= "info">
+      <div>
+   	<h2><center>Welcome to Dolphin Hotel</center></h2>
+   	<h4><center>One of the Best Hotels presently situated in Coorg.</center></h4>
+   	 <p>Dolphin Resort is a contemporary lifestyle destination spread across 12 acres of greenery in the Kushalnagar area of Coorg.</p>
+       <span id="text"><p>Experience extraordinary moments of more at this hotel in Coorg with multiple dining options, extensive leisure facilities, meeting rooms for business travellers, an international shopping plaza & a host of rejuvenating and recreational facilities. </p>
+       <p>There’s no doubt that Imperial Hotel is much more than a tastefully decorated, modern four-star hotel in the heart of Copenhagen. That’s because for more than 50 years, the hotel’s vibrant international atmosphere has attracted both Danish and international guests with a passion for good food and drink. Whether your business schedule is packed tight or you have ample time for sightseeing, Imperial Hotel is the perfect base conveniently located just steps from Tivoli Gardens, Strøget, City Hall Square and Copenhagen Central Station. If you are planning a meeting or conference, you can leave it to us to create the ideal environment with professional staff in one of our six conference rooms of various sizes. In our newly refurbished restaurant, Ristorante L’Appetito, we indulge our guests with authentic Italian delicacies made from excellent seasonal ingredients, lovingly created by our talented chef and his Italian team.</p>
+       </span>
+       </div>
+       <div class="btn-container">
+       <button id="toggle">Read More</button>
+       </div>
+
+       <br><br>
+       <div id="loc"><h4><center>Location</center></h4></div>
+       <div class="map">
+         <img src="images/maps.jpg">
+        </div>
+      <div class="location">
+         <p>Dolphin Hotel is 2.4 km from KSRTC Bus Stand, Kushalnagar, Coorg;&nbsp;&nbsp;&nbsp;&nbsp; at a distance of 230 Kms from Bangalore by road via Mysore.</p>
+         <p>The Routes from important cities in the region are:</p>
+         <p>BANGALORE (230 Kms) - Mysore Highway - Ramnagara - Maddur - Mandya - Periyapatna - Bylukuppe - Kushalnagar</p>
+         <p>OOTY (195 Kms) - Mysore - Elivala - Hunsur - Periyapatna - Bylukuppe - Kushalnagar</p>
+         <p>KANNUR (125 Kms) - Mattannur - Iritty - Kootupuzha - Virajpet - Siddapur - Kushalnagar</p>
+      </div>
+      <br><br>
+      <div class="tourist">
+      	<h4><center>Loose your Heart to the Scotland of India, Coorg</center></h4>
+      	<img src="images/coorg.jpg">
+      	
+      	<div id="tinfo">
+      		<p>Escape to the ‘country of a million hills’ at the heart of South India. It’s magical Coorg, also known as Kodagu. Let yourself be mesmerized by the mighty Western Ghats draped in endless greenery crowned by mist. Inhale the refreshing aroma of coffee and spices in their purest form. Let loose your adventurous side with white water rafting in the gushing Cauvery river. Soak in the vibrant culture of the Kodavas, the natives of Coorg. Then, retreat to a world of bliss at Purple Palms, one of the best resorts in Coorg.</p>
+      	</div>
+      </div>
+      <div class="w3-container" id="news">
+           <div class="w3-panel w3-border" id="newsletter">
+           <h2>Get the best offers first!</h2>
+           <p>Join our newsletter.</p>
+           <label>E-mail</label>
+           <input class="w3-input w3-border" style="border-radius: 10px" type="text" placeholder="Your Email address">
+           <button id="bt1" type="button">Subscribe</button>
+         </div>
+       </div>
+    </div>
+    <footer class="foot">
+       <p><center>© 2019 Dolphin Hotel All Rights Reserved</center></p>
+    </footer>
+   
+   <script>
+	var slideIndex = 0;
+	showSlides();
+
+	function showSlides() {
+	  var i;
+	  var slides = document.getElementsByClassName("mySlides");
+	  var dots = document.getElementsByClassName("dot");
+	  for (i = 0; i < slides.length; i++) {
+	    slides[i].style.display = "none";  
+	  }
+	  slideIndex++;
+	  if (slideIndex > slides.length) {slideIndex = 1}    
+
+	  slides[slideIndex-1].style.display = "block";  
+	  setTimeout(showSlides, 3000); // Change image every 3 seconds
+	}
+    </script>
+
+</body> 
+</html>
+   
