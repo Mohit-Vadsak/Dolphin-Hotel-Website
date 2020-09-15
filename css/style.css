@@ -16,7 +16,7 @@ body {
 .nav li {
   float: left;
 }
-.nav h3 {
+.nav h1 {
   font-size: 20px;
   font-family: "Quicksand", sans-serif;
   font-weight: bold;
@@ -50,7 +50,7 @@ body {
   font-size: 45px;
   color: #7b1fa2;
 }
-.info h4 {
+.info h3 {
   margin-top: -7px;
   font-size: 25px;
   font-weight: bold;
